@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "哲哲折",
 
 	// 站点 URL
-	site_url: "https://zhesphere.github.io",
+	site_url: "https://blog.zsphere.top",
 
 	// 站点描述
 	description:
