@@ -32,6 +32,12 @@
   "src:content/posts/images/both-list.avif": "e5e7e4e6e8e7e3e3e5",
   "src:content/posts/images/both-grid.avif": "d5d6d3e6e7e3d8d9e3",
   "src:content/posts/images/1.avif": "b5b0b3bcb6bbe0e0df",
-  "src:content/posts/guide/cover.avif": "c8bca9dde6d2babfb5",
-  "public:assets/images/logo.png": "d2b094d7b598fed8b5"
+  "public:assets/images/logo.png": "d2b094d7b598fed8b5",
+  "src:assets/images/1firefly.png": "72d3af9ee699aced93",
+  "src:assets/images/1avatar.avif": "dcd8d5d1cecabea9a9",
+  "src:content/posts/theme-default/guide/cover.avif": "c8bca9dde6d2babfb5",
+  "src:content/posts/photo/cover.JPG": "392b283b2f32413b3d",
+  "src:content/posts/special/cover.jpg": "3a6e2c37602c243b26",
+  "src:content/posts/electronic/component/diode/cover.jpg": "507caf3f6698578bc5",
+  "src:content/posts/electronic/component/dc-dc/cover.jpg": "c2c4c5a2a19fd0d1cf"
 }
