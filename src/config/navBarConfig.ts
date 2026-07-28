@@ -89,6 +89,24 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		// 子菜单
 		children: [
 			{
+				name: "Pdf",
+				url: "https://pdf.zsphere.top/",
+				external: true,
+				icon: "fa7-solid:file-pdf",
+			},
+			{
+				name: "Tools",
+				url: "https://tools.zsphere.top/",
+				external: true,
+				icon: "fa7-solid:screwdriver-wrench",
+			},
+			{
+				name: "Img",
+				url: "https://img.zsphere.top/",
+				external: true,
+				icon: "fa7-solid:image",
+			},
+			{
 				name: "GitHub",
 				url: "https://github.com/CuteLeaf/Firefly",
 				external: true,
