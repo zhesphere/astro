@@ -107,6 +107,12 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-solid:image",
 			},
 			{
+				name: "DevHard AI",
+				url: "https://www.hellozhi.com/app",
+				external: true,
+				icon: "fa7-solid:image",
+			},
+			{
 				name: "GitHub",
 				url: "https://github.com/CuteLeaf/Firefly",
 				external: true,

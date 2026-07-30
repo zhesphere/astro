@@ -23,6 +23,16 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
+		title: "张洪Heo",
+		imgurl:
+			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
+		desc: "分享设计与科技生活",
+		siteurl: "https://blog.zhheo.com/",
+		tags: ["Blog"],
+		weight: 11, // 权重，数字越大排序越靠前
+		enabled: true, // 是否启用
+	},
+	{
 		title: "夏夜流萤",
 		imgurl:
 			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
@@ -48,6 +58,15 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://github.com/withastro/astro",
 		tags: ["Framework"],
 		weight: 8,
+		enabled: true,
+	},
+	{
+		title: "AI嵌入式",
+		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
+		desc: "企业级AI编程:软硬全栈训练营",
+		siteurl: "https://x509p6c8to.feishu.cn/wiki/Jba4w51sQiDuWYkARPfc3eH5n2c",
+		tags: ["Guide"],
+		weight: 7,
 		enabled: true,
 	},
 ];
