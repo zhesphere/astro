@@ -14,7 +14,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	const links: NavBarLink[] = [];
 
 	// 主页
-	links.push(LinkPresets.Home);
+	// links.push(LinkPresets.Home);
 
 	// 文章及其子菜单
 	links.push({
