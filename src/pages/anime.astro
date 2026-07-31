@@ -308,17 +308,19 @@ const isConfigured = !!(BILIBILI_UID || (TMDB_API_KEY && TMDB_LIST_ID));
                   </div>
                 </div>
               </div>
-              <div class="bg-(--card-bg) rounded-xl p-3 sm:p-4 border border-(--line-divider)">
-                <div class="flex items-center gap-2 sm:gap-3">
-                  <div class="h-8 w-8 sm:h-10 sm:w-10 rounded-lg bg-yellow-500/10 flex items-center justify-center shrink-0">
-                    <Icon is:inline name="material-symbols:star" class="text-[1rem] sm:text-[1.25rem] text-yellow-500" />
-                  </div>
-                  <div class="min-w-0">
-                    <div class="text-[10px] sm:text-xs text-neutral-500 dark:text-neutral-400">{i18n(I18nKey.animeTmdbAvg)}</div>
-                    <div class="text-lg sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">{tmdbAverageRating}</div>
+              {TMDB_API_KEY && TMDB_LIST_ID ? (
+                <div class="bg-(--card-bg) rounded-xl p-3 sm:p-4 border border-(--line-divider)">
+                  <div class="flex items-center gap-2 sm:gap-3">
+                    <div class="h-8 w-8 sm:h-10 sm:w-10 rounded-lg bg-yellow-500/10 flex items-center justify-center shrink-0">
+                      <Icon is:inline name="material-symbols:star" class="text-[1rem] sm:text-[1.25rem] text-yellow-500" />
+                    </div>
+                    <div class="min-w-0">
+                      <div class="text-[10px] sm:text-xs text-neutral-500 dark:text-neutral-400">{i18n(I18nKey.animeTmdbAvg)}</div>
+                      <div class="text-lg sm:text-2xl font-bold text-neutral-900 dark:text-neutral-100">{tmdbAverageRating}</div>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ) : null}
               <div class="bg-(--card-bg) rounded-xl p-3 sm:p-4 border border-(--line-divider)">
                 <div class="flex items-center gap-2 sm:gap-3">
                   <div class="h-8 w-8 sm:h-10 sm:w-10 rounded-lg bg-emerald-500/10 flex items-center justify-center shrink-0">
