@@ -113,7 +113,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				name: "DevHard AI",
 				url: "https://www.hellozhi.com/app",
 				external: true,
-				icon: "fa7-solid:image",
+				icon: "fa7-solid:robot",
 			},
 			// {
 			// 	name: "GitHub",

@@ -129,6 +129,24 @@ export const booknavConfig: BooknavGroup[] = [
 				desc: "把代码片段生成漂亮的图片",
 				weight: 8,
 			},
+			{
+				title: "Pdf",
+				url: "https://pdf.zsphere.top/",
+				desc: "在线 PDF 处理工具",
+				weight: 8,
+			},
+			{
+				title: "Tools",
+				url: "https://tools.zsphere.top/",
+				desc: "在线工具集合",
+				weight: 8,
+			},
+			{
+				title: "Img",
+				url: "https://img.zsphere.top/",
+				desc: "在线图片处理工具",
+				weight: 8,
+			},
 		],
 	},
 	{
@@ -146,9 +164,9 @@ export const booknavConfig: BooknavGroup[] = [
 				weight: 10,
 			},
 			{
-				title: "夏夜流萤",
-				url: "https://blog.cuteleaf.cn",
-				desc: "飞萤之火自无梦的长夜亮起",
+				title: "AI嵌入式",
+				url: "https://x509p6c8to.feishu.cn/wiki/Jba4w51sQiDuWYkARPfc3eH5n2c",
+				desc: "企业级AI编程:软硬全栈训练营",
 				weight: 9,
 			},
 		],

@@ -60,15 +60,6 @@ export const friendsConfig: FriendLink[] = [
 		weight: 8,
 		enabled: true,
 	},
-	{
-		title: "AI嵌入式",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "企业级AI编程:软硬全栈训练营",
-		siteurl: "https://x509p6c8to.feishu.cn/wiki/Jba4w51sQiDuWYkARPfc3eH5n2c",
-		tags: ["Guide"],
-		weight: 7,
-		enabled: true,
-	},
 ];
 
 // 获取启用的友链并进行排序
