@@ -5,7 +5,7 @@ image: ""
 tags: [网络]
 category: 电子
 description: ""
-slug: electronic/network/lan-ju-yu-wang
+slug: electronic/tele/lan
 ---
 # 定义 
 局域网（LAN，Local Area Network）是一种在有限地理范围内（如一栋建筑物、一个校园或一个公司）建立的计算机网络。它通过传输介质将分散在该区域内的多台计算机及其外围设备连接起来，实现数据传输和资源共享。
