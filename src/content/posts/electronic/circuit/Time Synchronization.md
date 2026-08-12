@@ -1,6 +1,7 @@
 ---
 title: "Time Synchronization"
 published: 2026-04-13
+description: 
 image: ""
 tags: []
 category: 电子

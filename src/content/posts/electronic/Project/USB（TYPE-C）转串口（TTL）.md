@@ -3,7 +3,7 @@ title: "USB（TYPE-C）转串口（TTL）"
 published: 2026-02-03
 image: ""
 tags: []
-category: 电子项目
+category: 电子
 description: ""
 slug: electronic/project/usbtype-c-zhuan-chuan-kou-ttl
 ---
