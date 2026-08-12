@@ -1,10 +1,10 @@
 ---
 title: "使能"
 published: 2026-02-04
+description: 
 image: ""
 tags: [器件]
 category: 电子
-description: ""
 slug: electronic/component/dc-dc/en-shi-neng
 ---
 # 电源芯片(DC-DC和LDO芯片)

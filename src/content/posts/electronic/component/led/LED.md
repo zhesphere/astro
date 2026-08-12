@@ -1,10 +1,10 @@
 ---
 title: "LED"
 published: 2025-12-17
+description: 
 image: ""
 tags: [器件]
 category: 电子
-description: ""
 ---
 LED是固态发光元器件。与传统灯泡等相比，散热少，寿命长。另外，可形成全固态小型光源，抗冲击性优异，可大幅提高设计自由度。
 # 什么是LED？

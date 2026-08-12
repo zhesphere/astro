@@ -1,10 +1,10 @@
 ---
 title: "频谱仪"
 published: 2026-03-13
+description: 
 image: ""
 tags: [仪器]
 category: 电子
-description: ""
 ---
 传导和辐射
 信号线，CAN测传导

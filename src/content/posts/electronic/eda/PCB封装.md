@@ -1,6 +1,7 @@
 ---
 title: PCB封装
 published: 2025-11-01
+description: 
 tags: [EDA]
 category: 电子
 slug: electronic/eda/pcb-feng-zhuang

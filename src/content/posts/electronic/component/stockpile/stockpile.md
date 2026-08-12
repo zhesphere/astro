@@ -1,10 +1,10 @@
 ---
 title: 存储
 published: 2026-02-28
+description: 
 image: ""
 tags: [器件]
 category: 电子
-description: ""
 ---
 
 [SSD和DDR的工作原理有何不同？数据在两者之间如何交互传输？_编程语言-CSDN问答](https://ask.csdn.net/questions/8383676)

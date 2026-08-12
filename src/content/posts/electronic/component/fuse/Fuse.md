@@ -1,10 +1,10 @@
 ---
 title: "Fuse"
 published: 2026-04-03
+description: 
 image: ""
 tags: [保险丝]
 category: 电子
-description: ""
 ---
 # 自恢复保险丝
 [(33 封私信 / 80 条消息) 自恢复保险丝（PPTC）深度解析：从原理到应用的全流程指南 - 知乎](https://zhuanlan.zhihu.com/p/1914004407860851275)

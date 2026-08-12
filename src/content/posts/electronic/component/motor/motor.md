@@ -1,10 +1,10 @@
 ---
 title: "motor"
 published: 2026-03-23
+description: 
 image: ""
 tags: [器件]
 category: 电子
-description: ""
 ---
 # 电机的基本原理
 电机（Electric Motor）是将电能转换为机械能的装置，核心原理基于电磁感应与洛伦兹力。

@@ -1,10 +1,10 @@
 ---
 title: "EMC"
 published: 2026-03-14
+description: 
 image: ""
 tags: [电子测试]
 category: 电子
-description: ""
 ---
 [【材料】一文读懂电磁屏蔽材料（EMI/EMC）_导电_干扰_接地](https://www.sohu.com/a/647481033_121487107)
 

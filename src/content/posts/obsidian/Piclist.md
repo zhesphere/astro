@@ -1,10 +1,10 @@
 ---
 title: Piclist
 published: 2026-03-17
+description: 
 image: ""
 tags: []
 category: obsidian
-description: ""
 ---
 官网：[PicList](https://piclist.cn/)
 下载链接：[github](https://github.com/Kuingsmile/PicList/releases/latest)(建议使用IDM下载)

@@ -1,10 +1,10 @@
 ---
 title: "USB"
 published: 2026-03-23
+description: 
 image: ""
 tags: [通信]
 category: 电子
-description: ""
 ---
 [10 USB Pinout Explained- USB A, B, C(Male and Female)](https://www.etechnophiles.com/usb-pinout-ports-connectors/)
 

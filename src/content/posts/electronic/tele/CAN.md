@@ -1,10 +1,10 @@
 ---
 title: "CAN"
 published: 2026-03-18
+description: 
 image: ""
 tags: [通信]
 category: 电子
-description: ""
 ---
 [(32 封私信 / 80 条消息) CAN总线通信详解 (超详细配34张高清图) - 知乎](https://zhuanlan.zhihu.com/p/677658199)
 # CAN总线历史

@@ -1,10 +1,10 @@
 ---
 title: "ESD"
 published: 2026-03-20
+description: 
 image: ""
 tags: [防护]
 category: 电子
-description: ""
 slug: esd-test
 ---
 [(32 封私信 / 80 条消息) ESD常见三种放电模型（HBM、CDM 和 MM）介绍 - 知乎](https://zhuanlan.zhihu.com/p/1894688425581461703)

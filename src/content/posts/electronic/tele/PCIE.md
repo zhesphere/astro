@@ -1,10 +1,10 @@
 ---
 title: "PCIE"
 published: 2026-04-27
+description: 
 image: ""
 tags: [通信]
 category: 电子
-description: ""
 ---
 [(33 封私信 / 80 条消息) PCIe（一） —— PCIe基础概念与设备树 - 知乎](https://zhuanlan.zhihu.com/p/684900130)
 

@@ -1,10 +1,10 @@
 ---
 title: "HDMI"
 published: 2026-04-27
+description: 
 image: ""
 tags: [通信]
 category: 电子
-description: ""
 ---
 # eARC(Enhanced Audio Return Channel)
 eARCARC（Audio Return Channel）的升级版本。它于 2017 年作为HDMI 2.1规范的一部分推出。

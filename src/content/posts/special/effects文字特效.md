@@ -1,6 +1,7 @@
 ---
 title: effects文字特效
 published: 2025-09-05
+description: 
 tags: []
 category: 特殊功能
 slug: special/effects-wen-zi-te-xiao

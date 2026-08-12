@@ -1,10 +1,10 @@
 ---
 title: "AT命令集"
 published: 2026-07-15
+description: 
 image: ""
 tags: [通信]
 category: 电子
-description: ""
 slug: electronic/tele/at-ming-ling-ji
 ---
 [AT 指令详解----彻底讲明白_at指令-CSDN博客](https://blog.csdn.net/sweetfather/article/details/148191357)

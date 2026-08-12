@@ -1,10 +1,10 @@
 ---
 title: "Pspice"
 published: 2026-01-15
+description: 
 image: ""
 tags: [EDA]
 category: 电子
-description: ""
 ---
 
 # 前言
