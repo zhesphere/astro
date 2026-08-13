@@ -1,7 +1,7 @@
 ---
 title: label标签块
 published: 2025-09-06
-description: 
+description: ""
 tags: []
 category: 特殊功能
 slug: special/label-biao-qian-kuai

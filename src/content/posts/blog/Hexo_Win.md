@@ -1,11 +1,10 @@
 ---
 title: "Hexo_Win"
 published: 2026-04-10
-description: 
+description: ""
 image: ""
 tags: [Hexo]
 category: blog
-description: ""
 ---
 # 安装 Git
 下载并安装 [git](https://git-scm.com/download/win)。

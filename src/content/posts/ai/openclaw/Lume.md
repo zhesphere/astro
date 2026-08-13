@@ -1,11 +1,10 @@
 ---
 title: "Lume"
 published: 2026-03-21
-description: 
+description: ""
 image: ""
 tags: [虚拟机]
 category: AI
-description: ""
 ---
 
 # 安装Lume

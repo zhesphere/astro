@@ -1,11 +1,10 @@
 ---
 title: "Time Synchronization"
 published: 2026-04-13
-description: 
+description: ""
 image: ""
 tags: []
 category: 电子
-description: ""
 ---
 [一文搞懂系列：1PPS 的作用及如何实现高精校时-CSDN博客](https://blog.csdn.net/xieyihua1994/article/details/149349372)
 

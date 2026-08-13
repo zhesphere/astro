@@ -1,11 +1,10 @@
 ---
 title: "Signal Integrity"
 published: 2026-04-14
-description: 
+description: ""
 image: ""
 tags: []
 category: 电子
-description: ""
 ---
 # 地弹
 1.1、地弹的概念 

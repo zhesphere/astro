@@ -1,11 +1,10 @@
 ---
 title: "Claude Code"
 published: 2026-04-10
-description: 
+description: ""
 image: ""
 tags: []
 category: AI
-description: ""
 ---
 # 开始使用
 选择你的环境来开始使用。大多数界面需要 [Claude 订阅](https://claude.com/pricing?utm_source=claude_code&utm_medium=docs&utm_content=overview_pricing) 或 [Anthropic 控制台](https://console.anthropic.com/)账户。终端 CLI 和 VS Code 也支持[第三方提供商](https://code.claude.com/docs/zh-CN/third-party-integrations)。

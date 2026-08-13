@@ -1,11 +1,10 @@
 ---
 title: "Codex"
 published: 2026-04-11
-description: 
+description: ""
 image: ""
 tags: []
 category: AI
-description: ""
 ---
 [Codex官网](https://developers.openai.com/codex/cli)
 https://johng.cn/ai/codex-cli-guide

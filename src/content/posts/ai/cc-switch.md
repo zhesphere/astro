@@ -1,11 +1,10 @@
 ---
 title: "cc-switch"
 published: 2026-04-12
-description: 
+description: ""
 image: ""
 tags: []
 category: AI
-description: ""
 ---
 [官网](https://github.com/farion1231/cc-switch/blob/main/README_ZH.md)
 # 下载安装

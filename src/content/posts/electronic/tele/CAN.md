@@ -1,7 +1,7 @@
 ---
 title: "CAN"
 published: 2026-03-18
-description: 
+description: ""
 image: ""
 tags: [通信]
 category: 电子
