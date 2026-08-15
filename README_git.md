@@ -24,7 +24,7 @@ git commit -m "描述你改了什么"
 git push
 ```
 
-推送后 GitHub Actions 自动构建部署到 `blog.zsphere.top`，无需手动 `pnpm build`。
+推送后 GitHub Actions 自动构建部署到 `blog.orbitvo.com`，无需手动 `pnpm build`。
 
 ## 避免冲突
 

@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
 	subtitle: "哲哲折",
 
 	// 站点 URL
-	site_url: "https://blog.zsphere.top",
+	site_url: "https://blog.orbitvo.com",
 
 	// 站点描述
 	description:
