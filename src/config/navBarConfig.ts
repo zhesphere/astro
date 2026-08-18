@@ -14,7 +14,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	const links: NavBarLink[] = [];
 
 	// 主页
-	// links.push(LinkPresets.Home);
+	links.push(LinkPresets.Home);
 
 	// 文章及其子菜单
 	links.push({
@@ -165,7 +165,7 @@ export const navBarSearchConfig: NavBarSearchConfig = {
 export const LinkPresets: Record<string, NavBarLink> = {
 	Home: {
 		name: "主页",
-		url: "/",
+		url: "https://orbitvo.com",//url: "/",
 		icon: "material-symbols:home",
 	},
 	Dynamic: {

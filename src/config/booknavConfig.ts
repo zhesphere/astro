@@ -131,19 +131,19 @@ export const booknavConfig: BooknavGroup[] = [
 			},
 			{
 				title: "Pdf",
-				url: "https://pdf.zsphere.top/",
+				url: "https://pdf.orbitvo.com/",
 				desc: "在线 PDF 处理工具",
 				weight: 8,
 			},
 			{
 				title: "Tools",
-				url: "https://tools.zsphere.top/",
+				url: "https://lab.orbitvo.com/",
 				desc: "在线工具集合",
 				weight: 8,
 			},
 			{
 				title: "Img",
-				url: "https://img.zsphere.top/",
+				url: "https://img.orbitvo.com/",
 				desc: "在线图片处理工具",
 				weight: 8,
 			},
