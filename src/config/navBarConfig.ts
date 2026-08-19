@@ -93,19 +93,19 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 		children: [
 			{
 				name: "Pdf",
-				url: "https://pdf.zsphere.top/",
+				url: "https://pdf.orbitvo.com/",
 				external: true,
 				icon: "fa7-solid:file-pdf",
 			},
 			{
 				name: "Tools",
-				url: "https://tools.zsphere.top/",
+				url: "https://lab.orbitvo.com/",
 				external: true,
 				icon: "fa7-solid:screwdriver-wrench",
 			},
 			{
 				name: "Img",
-				url: "https://img.zsphere.top/",
+				url: "https://img.orbitvo.com/",
 				external: true,
 				icon: "fa7-solid:image",
 			},
