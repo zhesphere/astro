@@ -20,7 +20,7 @@ pnpm dev
 
 ```bash
 git add -A
-git commit -m "描述你改了什么"
+git commit -m "" #描述你修改了什么
 git push
 ```
 
