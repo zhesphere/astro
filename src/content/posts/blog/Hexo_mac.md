@@ -3,7 +3,7 @@ title: "Hexo_mac"
 published: 2026-04-09
 description: ""
 tags: []
-category: ""
+category: "blog"
 ---
 # 环境配置
 ## 安装 Homebrew
