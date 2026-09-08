@@ -4,7 +4,7 @@ published: 2026-03-21
 description: ""
 image: ""
 tags: [虚拟机]
-category: AI
+category: "AI"
 ---
 
 # 安装Lume

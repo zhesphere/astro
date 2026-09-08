@@ -1,5 +1,5 @@
 ---
-title: "Finder"
+title: "mac"
 published: 2026-09-06
 description: ""
 image: ""
@@ -9,6 +9,8 @@ category: "Mac"
 
 在当前文件夹下创建文件夹
 显示扩展名会导致应用程序中所有软件都带.app，一般可以不打开
+程序呜软件退出之后还留着
+关闭显示建议的app
 
 # Finder
 

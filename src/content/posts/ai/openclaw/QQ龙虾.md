@@ -4,7 +4,7 @@ published: 2026-03-22
 description: ""
 image: ""
 tags: []
-category: ""
+category: "AI"
 slug: ai/openclaw/qq-long-xia
 ---
 

@@ -4,7 +4,7 @@ published: 2026-04-11
 description: ""
 image: ""
 tags: []
-category: AI
+category: "AI"
 ---
 [Codex官网](https://developers.openai.com/codex/cli)
 https://johng.cn/ai/codex-cli-guide

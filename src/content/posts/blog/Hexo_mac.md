@@ -1,5 +1,5 @@
 ---
-title: "Hexo"
+title: "Hexo_mac"
 published: 2026-04-09
 description: ""
 tags: []

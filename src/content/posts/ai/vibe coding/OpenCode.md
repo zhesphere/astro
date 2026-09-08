@@ -4,7 +4,7 @@ published: 2026-09-05
 description: ""
 image: ""
 tags: []
-category: ""
+category: "AI"
 ---
 # 安装
 安装方式最好统一，可以汇总安装的所有CLI

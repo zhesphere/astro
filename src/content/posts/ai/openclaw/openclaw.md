@@ -4,7 +4,7 @@ published: 2026-03-21
 description: ""
 image: ""
 tags: [openclaw]
-category: AI
+category: "AI"
 ---
 
 # 安装openclaw（中文版）

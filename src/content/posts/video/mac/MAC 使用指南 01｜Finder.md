@@ -8,7 +8,7 @@ category: "video"
 slug: video/mac/finder-tips
 ---
 
-来源：[[mac/finder]]
+来源：[[mac]]
 
 ## 第一期：刚用 Mac，Finder 这 5 个设置建议先改
 
