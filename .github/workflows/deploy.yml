@@ -10,6 +10,7 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  statuses: read
 
 # 确保只有一个部署任务同时运行
 concurrency:
@@ -58,3 +59,79 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  refresh-orbitvo:
+    name: Refresh Orbitvo homepage
+    needs: deploy
+    if: ${{ needs.deploy.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Wait for Firefly Vercel deployment
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+
+          for attempt in {1..60}; do
+            response="$(curl \
+              --fail-with-body \
+              --silent \
+              --show-error \
+              --header "Accept: application/vnd.github+json" \
+              --header "Authorization: Bearer ${GH_TOKEN}" \
+              --header "X-GitHub-Api-Version: 2022-11-28" \
+              "https://api.github.com/repos/${REPOSITORY}/commits/${COMMIT_SHA}/status")"
+            state="$(jq -r '[.statuses[] | select(.context == "Vercel")][0].state // "pending"' <<<"${response}")"
+
+            case "${state}" in
+              success)
+                echo "Firefly Vercel deployment is ready."
+                break
+                ;;
+              error|failure)
+                echo "::error::Firefly Vercel deployment failed."
+                exit 1
+                ;;
+              *)
+                if [[ "${attempt}" -eq 60 ]]; then
+                  echo "::error::Timed out waiting for the Firefly Vercel deployment."
+                  exit 1
+                fi
+                sleep 10
+                ;;
+            esac
+          done
+
+      - name: Verify production RSS
+        env:
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          curl \
+            --fail-with-body \
+            --silent \
+            --show-error \
+            --location \
+            --max-time 30 \
+            --output /dev/null \
+            "https://blog.orbitvo.com/rss.xml?deployment=${COMMIT_SHA}"
+
+      - name: Trigger Orbitvo rebuild
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.ORBITVO_VERCEL_DEPLOY_HOOK_URL }}
+        run: |
+          if [[ -z "${DEPLOY_HOOK_URL:-}" ]]; then
+            echo "::error::ORBITVO_VERCEL_DEPLOY_HOOK_URL is not configured."
+            exit 1
+          fi
+
+          curl \
+            --fail-with-body \
+            --silent \
+            --show-error \
+            --request POST \
+            --output /dev/null \
+            "${DEPLOY_HOOK_URL}"
