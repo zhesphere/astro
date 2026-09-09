@@ -268,3 +268,29 @@ pnpm pub
 ```
 
 完成发布。
+
+---
+
+## 博客发布后自动刷新 Orbitvo 首页
+
+由于 `orbitvo.com` 会在 Vercel 构建期间读取 `https://blog.orbitvo.com/rss.xml`，博客发布后还需要重新构建 Orbitvo，首页的 Latest Signals 才能及时显示最新文章。
+
+为此，在 `.github/workflows/deploy.yml` 中新增了独立的 `Refresh Orbitvo homepage` job。它依赖现有的 `deploy` job，并按以下顺序运行：
+
+```text
+博客构建并部署成功
+→ 等待当前提交的 Firefly Vercel 部署成功
+→ 确认生产 RSS 可以访问
+→ 调用 Orbitvo Vercel Deploy Hook
+→ Orbitvo main 分支重新构建并读取最新 RSS
+```
+
+Deploy Hook URL 没有写入仓库，而是保存在 GitHub Actions Repository Secret 中：
+
+```text
+ORBITVO_VERCEL_DEPLOY_HOOK_URL
+```
+
+Hook、Vercel 状态或 RSS 检查失败时，刷新 job 会明确失败；博客本身此时已经完成发布，因此不会拖慢或中断博客上线。该功能不修改网站内容、主题和构建命令，也不需要 Vercel Token。
+
+如需移除，只需删除 workflow 中的 `refresh-orbitvo` job、上述 GitHub Secret，以及 Vercel 项目中的对应 Deploy Hook。
