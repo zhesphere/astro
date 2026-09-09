@@ -31,7 +31,7 @@ http://localhost:4321
 文章写完后，直接执行：
 
 ```bash
-pnpm pub "描述这次修改了什么"
+pnpm pub ""
 ```
 
 例如：
