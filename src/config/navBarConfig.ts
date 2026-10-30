@@ -153,7 +153,7 @@ export const navBarSearchConfig: NavBarSearchConfig = {
 export const LinkPresets: Record<string, NavBarLink> = {
 	Home: {
 		name: "主页",
-		url: "https://orbitvo.com",//url: "/",
+		url: "/",//url: "/",
 		icon: "material-symbols:home",
 	},
 	Archive: {

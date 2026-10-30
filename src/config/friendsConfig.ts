@@ -20,44 +20,61 @@ export const friendsPageConfig: FriendsPageConfig = {
 	randomizeSort: false,
 };
 
-// 友链配置
+// 友链配置（对齐旧站 links.yml + 新站 Astro/Firefly 栈）
 export const friendsConfig: FriendLink[] = [
 	{
+		title: "❖星港◎Star☆",
+		imgurl: "https://bu.dusays.com/2025/04/11/67f92f6fcfb26.webp",
+		desc: "以博客记录生活与热爱！",
+		siteurl: "https://blog.starsharbor.com",
+		tags: ["Friend"],
+		weight: 12,
+		enabled: true,
+	},
+	{
 		title: "张洪Heo",
-		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
+		imgurl: "https://img.zhheo.com/i/67d8fa75943e4.webp",
 		desc: "分享设计与科技生活",
 		siteurl: "https://blog.zhheo.com/",
 		tags: ["Blog"],
-		weight: 11, // 权重，数字越大排序越靠前
-		enabled: true, // 是否启用
+		weight: 11,
+		enabled: true,
 	},
 	{
-		title: "夏夜流萤",
+		title: "Solitude",
+		imgurl: "https://s2.loli.net/2024/10/10/hOTRIKV4vy6EMf2.webp",
+		desc: "一个卡片UI主题，适用于 Hexo",
+		siteurl: "https://solitude.js.org/",
+		tags: ["Theme"],
+		weight: 10,
+		enabled: true,
+	},
+	{
+		title: "Hexo",
 		imgurl:
-			"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
-		weight: 10, // 权重，数字越大排序越靠前
-		enabled: true, // 是否启用
-	},
-	{
-		title: "Firefly Docs",
-		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
-		desc: "Firefly主题模板文档",
-		siteurl: "https://docs-firefly.cuteleaf.cn",
-		tags: ["Docs"],
+			"https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg",
+		desc: "快速、简单且强大的网站框架",
+		siteurl: "https://hexo.io/zh-cn/",
+		tags: ["Framework"],
 		weight: 9,
 		enabled: true,
 	},
 	{
 		title: "Astro",
 		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites. ⭐️ Star to support our work!",
-		siteurl: "https://github.com/withastro/astro",
+		desc: "The web framework for content-driven websites",
+		siteurl: "https://astro.build",
 		tags: ["Framework"],
 		weight: 8,
+		enabled: true,
+	},
+	{
+		title: "Firefly",
+		imgurl: "https://docs-firefly.cuteleaf.cn/logo.png",
+		desc: "基于 Astro 的清新现代化个人博客主题",
+		siteurl: "https://github.com/CuteLeaf/Firefly",
+		tags: ["Theme"],
+		weight: 7,
 		enabled: true,
 	},
 ];
