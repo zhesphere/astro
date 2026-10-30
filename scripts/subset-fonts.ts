@@ -9,11 +9,14 @@ import { glob } from "glob";
 import subsetFont from "subset-font";
 import { fontConfig, fontsList } from "../src/config";
 import { collectUsedFontCssVars, toPublicPath } from "../src/utils/fontHelper";
+import { resolveSiteRoot } from "./site-root";
 
 // ─── 配置 ───────────────────────────────────────────────
 
-const DIST_DIR = "dist";
-const OUTPUT_DIR = "dist/_astro/fonts";
+// Cloudflare Pages 上产物在 dist/client，本地在 dist，统一对准真实根目录
+const siteRoot = resolveSiteRoot();
+const DIST_DIR = siteRoot;
+const OUTPUT_DIR = `${siteRoot}/_astro/fonts`;
 
 // ─── 字体配置解析 ────────────────────────────────────────
 
@@ -42,7 +45,7 @@ function getLocalSubsetFonts(): LocalSubsetFont[] {
 	const used = collectUsedFontCssVars(fontConfig);
 
 	// 建立 cssVariable → fontsList 条目的映射
-	const fontByCssVar = new Map<string, typeof fontsList[number]>();
+	const fontByCssVar = new Map<string, (typeof fontsList)[number]>();
 	for (const f of fontsList) {
 		if (f.cssVariable) fontByCssVar.set(f.cssVariable, f);
 	}
@@ -51,7 +54,9 @@ function getLocalSubsetFonts(): LocalSubsetFont[] {
 	for (const [cssVar, opts] of subsetEntries) {
 		// 跳过未被使用的字体，避免生成无用的子集文件
 		if (!used.has(cssVar)) {
-			console.log(`   ⏭ Skipping '${cssVar}' — not referenced in selected or any font region.`);
+			console.log(
+				`   ⏭ Skipping '${cssVar}' — not referenced in selected or any font region.`,
+			);
 			continue;
 		}
 
@@ -66,12 +71,14 @@ function getLocalSubsetFonts(): LocalSubsetFont[] {
 			if (publicPath === null) {
 				console.warn(
 					`   ⚠ Skipping variant with unexpected src path: "${rawSrc}".\n` +
-					`     Expected a path under public/ (e.g. "./public/assets/fonts/MyFont.woff2") or an absolute path (e.g. "/assets/fonts/MyFont.woff2").`
+						`     Expected a path under public/ (e.g. "./public/assets/fonts/MyFont.woff2") or an absolute path (e.g. "/assets/fonts/MyFont.woff2").`,
 				);
 				continue;
 			}
 			result.push({
-				id: `${f.name}-${v.weight || "default"}`.toLowerCase().replace(/\s+/g, "-"),
+				id: `${f.name}-${v.weight || "default"}`
+					.toLowerCase()
+					.replace(/\s+/g, "-"),
 				family: f.name,
 				src: publicPath,
 				weight: v.weight,
@@ -102,7 +109,9 @@ function extractTextFromHtml(html: string): string {
 		.replace(/&#39;/g, "'")
 		.replace(/&nbsp;/g, " ");
 	// 提取 alt、title、aria-label、placeholder 属性值
-	const attrMatches = html.matchAll(/(?:alt|title|aria-label|placeholder)=["']([^"']+)["']/gi);
+	const attrMatches = html.matchAll(
+		/(?:alt|title|aria-label|placeholder)=["']([^"']+)["']/gi,
+	);
 	for (const match of attrMatches) {
 		text += match[1];
 	}
@@ -128,11 +137,7 @@ async function collectChars(): Promise<string> {
 // ─── 子集生成 ────────────────────────────────────────────
 
 function contentHash(buffer: Buffer): string {
-	return crypto
-		.createHash("sha256")
-		.update(buffer)
-		.digest("hex")
-		.slice(0, 16);
+	return crypto.createHash("sha256").update(buffer).digest("hex").slice(0, 16);
 }
 
 function fullHash(buffer: Buffer): string {
@@ -161,7 +166,7 @@ function detectFontFormat(
 			return "woff";
 		case ".otf":
 			return "opentype";
-		case ".ttf":
+		// .ttf 和未知扩展名都按 truetype 处理
 		default:
 			return "truetype";
 	}
@@ -220,9 +225,7 @@ async function main() {
 		try {
 			await fs.access(fontPath);
 		} catch {
-			console.error(
-				`❌ Font file not found: ${fontPath} (src: ${font.src})`,
-			);
+			console.error(`❌ Font file not found: ${fontPath} (src: ${font.src})`);
 			continue;
 		}
 
@@ -236,9 +239,7 @@ async function main() {
 			chars = [...extraSet].join("");
 		}
 
-		console.log(
-			`⏳ Generating subset for '${font.id}' (${font.family})...`,
-		);
+		console.log(`⏳ Generating subset for '${font.id}' (${font.family})...`);
 
 		const fontBuffer = await fs.readFile(fontPath);
 		const originalFormat = detectFontFormat(fontPath);
@@ -246,7 +247,6 @@ async function main() {
 		try {
 			const subsetBuffer = await subsetFont(fontBuffer, chars, {
 				targetFormat: "woff2",
-				preserveNameTable: true,
 			});
 
 			const hash = contentHash(subsetBuffer);
@@ -290,10 +290,9 @@ async function main() {
 	//    本地字体会被 Astro 重命名为哈希文件名，不能直接根据源路径定位。
 	console.log("🔄 Replacing original font URLs in dist/ CSS and HTML files...");
 	const filesToReplace = await glob(`${DIST_DIR}/**/*.{css,html}`);
-	const distFontFiles = await glob(
-		`${DIST_DIR}/**/*.{ttf,otf,woff,woff2}`,
-		{ nodir: true },
-	);
+	const distFontFiles = await glob(`${DIST_DIR}/**/*.{ttf,otf,woff,woff2}`, {
+		nodir: true,
+	});
 	const originalFilesByResult = new Map<SubsetResult, string[]>();
 
 	for (const result of results) {
