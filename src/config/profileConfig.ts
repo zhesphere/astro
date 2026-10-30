@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
 	name: "Lyz",
 
 	// 个人签名
-	bio: "流水不争先，争的是滔滔不绝。",
+	bio: "破釜沉舟，砥砺前行。",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons

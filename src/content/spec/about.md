@@ -1,27 +1,77 @@
-# 关于我 / About Me
+# 关于我
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+脚踏实地行动派 · 团队小组发动机 · 壮汉人狠话不多
 
-## 🛠️ 关于本站
+你好，我是 **Lyz**（哲哲折）。我现在住在中国江苏省，生于 2003 年，毕业于南京航空航天大学探测制导与控制技术专业，目前是一名硬件工程师。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+## 追求
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
+源于热爱而去创造。
 
+- 优秀的产品
+- 出色的设计
+- 高效的编程
+- 人性化的用户体验
 
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
+## 技能
 
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
+开启创造力。
 
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
+- Java
+- Docker
+- Node
+- Vue
+- JavaScript
+- HTML
+- Git
 
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
+## 生涯
 
-::github{repo="CuteLeaf/Firefly"}
+无限进步 · 自动化，学习。
 
-::github{repo="saicaca/fuwari"}
+## 性格
 
----
+主人公：**ENFJ-A / ENFJ-T**
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+在 [16personalities](https://www.16personalities.com/ch/enfj-%E4%BA%BA%E6%A0%BC) 了解更多关于「主人公」。
 
+## 座右铭
+
+> 破釜沉舟，砥砺前行。
+
+## 特长
+
+- 数学、物理、化学
+- 学习能力 MAX
+
+## 爱好
+
+### 游戏
+
+- **APEX LEGENDS**
+- C 位 ID：Wleelw
+- 精灵与萤火意志 · 跑图大师
+
+### 番剧
+
+科幻、动漫、喜剧。
+
+### 音乐
+
+民谣、古典、轻音乐。
+
+## 心路历程
+
+### 为什么建站？
+
+创建这个站的时候，想要就是能够有一个自己能够积累知识、积累兴趣的地方。和他人分享，会让这些成为积累和沉淀。如果能够帮助到更多的人，帮助更多人解决问题，那一定是非常棒的事情。
+
+与大多数垂直类的技术博客不同，这里的种类会非常的繁杂，有技能的教程干货、有生活上的吐槽和妙招、有话题上的思考和想法。一般我研究什么、发现了什么都会分享在这里。
+
+这些就是创造这个小站的本意，也是我分享生活的方式。有幸能和你相遇在这里，相信我们能共同留下一段美好记忆。
+
+## 十年之约
+
+一个人的寂寞，一群人的狂欢。
+
+**2025-01-01 → 2035-01-01**
