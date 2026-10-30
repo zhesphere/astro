@@ -8,8 +8,7 @@ export const sponsorConfig: SponsorConfig = {
 	description: "",
 
 	// 打赏用途说明
-	usage:
-		"您的打赏将用于服务器维护、内容创作和功能开发，帮助我持续提供优质内容。",
+	usage: "您的打赏将全部用于博客的维护和更新。",
 
 	// 是否显示打赏者列表
 	showSponsorsList: true,
@@ -25,55 +24,37 @@ export const sponsorConfig: SponsorConfig = {
 		{
 			name: "支付宝",
 			icon: "fa7-brands:alipay",
-			// 收款码图片路径（需要放在 public 目录下）
-			// qrCode: "/assets/images/sponsor/alipay.png",
-			link: "https://zsstoposs.oss-cn-hangzhou.aliyuncs.com/images/alipay.webp",
+			qrCode:
+				"https://zsstoposs.oss-cn-hangzhou.aliyuncs.com/images/alipay.webp",
 			description: "使用 支付宝 扫码打赏",
 			enabled: true,
 		},
 		{
 			name: "微信",
 			icon: "fa7-brands:weixin",
-			// qrCode: "/assets/images/sponsor/wechat.png",
-			link: "https://zsstoposs.oss-cn-hangzhou.aliyuncs.com/images/wechatpay.webp",
+			qrCode:
+				"https://zsstoposs.oss-cn-hangzhou.aliyuncs.com/images/wechatpay.webp",
 			description: "使用 微信 扫码打赏",
 			enabled: true,
 		},
-		// {
-		// 	name: "ko-fi",
-		// 	icon: "simple-icons:kofi",
-		// 	qrCode: "",
-		// 	link: "https://ko-fi.com/cuteleaf",
-		// 	description: "Buy a Coffee for Firefly",
-		// 	enabled: true,
-		// },
-		// {
-		// 	name: "爱发电",
-		// 	icon: "simple-icons:afdian",
-		// 	qrCode: "",
-		// 	link: "https://ifdian.net/a/cuteleaf",
-		// 	description: "通过 爱发电 进行打赏",
-		// 	enabled: true,
-		// },
 	],
 
-	// 打赏者列表（可选）
+	// 打赏者列表（来自旧站赞赏名单）
 	sponsors: [
-		// 示例：已实名打赏者
 		{
-			name: "夏叶",
-			avatar:
-				"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
-			amount: "¥50",
-			date: "2025-10-01",
+			name: "沚轩",
+			amount: "¥0.01",
+			date: "2026-03-20",
 		},
-
-		// 示例：匿名打赏者
 		{
-			name: "匿名用户",
-			// avatar: "",
-			amount: "¥20",
-			date: "2025-10-01",
+			name: "demei",
+			amount: "¥6.66",
+			date: "2026-03-20",
+		},
+		{
+			name: "加加七",
+			amount: "¥1",
+			date: "2025-09-01",
 		},
 	],
 };
