@@ -4,7 +4,10 @@ published: 2026-03-21
 description: ""
 image: ""
 tags: [虚拟机]
-category: "AI"
+category: "人工智能"
+series: "OpenClaw 龙虾"
+seriesOrder: 2
+
 ---
 
 # 安装Lume

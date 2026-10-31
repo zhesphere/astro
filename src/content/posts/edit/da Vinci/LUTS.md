@@ -3,8 +3,11 @@ title: LUTS
 published: 2025-11-11
 description: ""
 image: ""
-tags: []
+tags: [达芬奇]
 category: 剪辑
+series: "达芬奇剪辑"
+seriesOrder: 4
+
 ---
 Look UpTable(颜色查找表)
 文件尾缀——.CUBE

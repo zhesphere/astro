@@ -3,8 +3,8 @@ title: "ollama"
 published: 2026-09-05
 description: ""
 image: ""
-tags: []
-category: "AI"
+tags: [本地模型]
+category: "人工智能"
 ---
 # Ollama 本地大模型实用教程：模型管理、Context Length 与 OpenCode 集成
 

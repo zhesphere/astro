@@ -3,8 +3,11 @@ title: "openclaw"
 published: 2026-03-21
 description: ""
 image: ""
-tags: [openclaw]
-category: "AI"
+tags: [OpenClaw]
+category: "人工智能"
+series: "OpenClaw 龙虾"
+seriesOrder: 1
+
 ---
 
 # 安装openclaw（中文版）

@@ -3,9 +3,12 @@ title: "QQ龙虾"
 published: 2026-03-22
 description: ""
 image: ""
-tags: []
-category: "AI"
+tags: [OpenClaw]
+category: "人工智能"
+series: "OpenClaw 龙虾"
+seriesOrder: 3
 slug: ai/openclaw/qq-long-xia
+
 ---
 
 https://q.qq.com/qqbot/openclaw/

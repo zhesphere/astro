@@ -3,7 +3,7 @@ title: "Latch-up"
 published: 2026-07-02
 description: ""
 image: ""
-tags: []
+tags: [器件]
 category: 电子
 ---
 [(33 封私信 / 80 条消息) 闩锁效应（Latch-up）详解 - 知乎](https://zhuanlan.zhihu.com/p/125519142)

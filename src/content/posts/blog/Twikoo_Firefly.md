@@ -3,8 +3,11 @@ title: Firefly 博客接入 Twikoo 评论（MongoDB + Vercel）
 published: 2026-10-30
 description: 从零部署 Twikoo 后端并接入 Firefly：MongoDB Atlas、Vercel、自定义域名与 commentConfig。
 tags: [Twikoo, 评论, Firefly, Vercel, MongoDB]
-category: "blog"
+category: "博客"
+series: "博客搭建"
+seriesOrder: 4
 draft: false
+
 ---
 
 本文记录本站从「评论未配置」到启用 [Twikoo](https://twikoo.js.org/) 的完整流程：用 **MongoDB Atlas** 存评论，用 **Vercel** 跑云函数，再绑到自己的子域名，最后在 Firefly 里改一行配置。

@@ -3,9 +3,12 @@ title: "MAC 使用指南 01｜Finder"
 published: 2026-09-06
 description: ""
 image: ""
-tags: []
-category: "video"
+tags: [Mac, 教程]
+category: "Mac"
+series: "Mac 使用指南"
+seriesOrder: 1
 slug: video/mac/finder-tips
+
 ---
 
 来源：[[mac]]

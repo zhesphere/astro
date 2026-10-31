@@ -2,8 +2,11 @@
 title: "Hexo_mac"
 published: 2026-04-09
 description: ""
-tags: []
-category: "blog"
+tags: [Hexo]
+category: "博客"
+series: "博客搭建"
+seriesOrder: 1
+
 ---
 # 环境配置
 ## 安装 Homebrew

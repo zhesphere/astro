@@ -2,7 +2,7 @@
 title: ComfyUI
 published: 2025-10-29
 description: ComfyUI学习
-tags: []
+tags: [ComfyUI]
 category: 人工智能
 ---
 Stable Diffusion

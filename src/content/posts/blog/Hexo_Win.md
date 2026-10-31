@@ -4,7 +4,10 @@ published: 2026-04-10
 description: ""
 image: ""
 tags: [Hexo]
-category: "blog"
+category: "博客"
+series: "博客搭建"
+seriesOrder: 2
+
 ---
 # 安装 Git
 下载并安装 [git](https://git-scm.com/download/win)。
