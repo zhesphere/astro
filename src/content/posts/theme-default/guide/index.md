@@ -1,5 +1,6 @@
 ---
 title: Firefly 简单使用指南
+draft: true
 published: 2025-07-01
 pinned: true
 description: "如何使用 Firefly 博客模板。"
@@ -10,7 +11,6 @@ category: 博客指南
 series: "Firefly 功能示例"
 seriesOrder: 1
 ---
-
 
 
 这个博客模板是基于 [Astro](https://astro.build/) 构建的。对于本指南中未提及的内容，您可以在 [Astro 文档](https://docs.astro.build/) 中找到答案。

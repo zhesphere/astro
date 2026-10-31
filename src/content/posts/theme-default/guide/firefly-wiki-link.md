@@ -1,5 +1,6 @@
 ---
 title: Firefly Wiki Link 内部链接示例
+draft: true
 published: 2025-07-01
 description: 在 Firefly 文章中使用 Obsidian 风格的 Wiki Link 内部链接，并自动生成文章链接卡片。
 image: ""
@@ -9,7 +10,6 @@ slug: guide/firefly-wiki-link
 series: "Firefly 功能示例"
 seriesOrder: 3
 ---
-
 Firefly 支持在 Markdown、MDX 文章中使用 Obsidian 风格的 Wiki Link 内部链接。链接目标填写文章的 slug 或文件路径，都不需要包含扩展名，具体匹配规则见下文「链接目标的三种写法」。
 
 ## 文章链接卡片

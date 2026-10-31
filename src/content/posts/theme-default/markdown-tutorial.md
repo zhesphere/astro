@@ -1,5 +1,6 @@
 ---
 title: Markdown 教程
+draft: true
 published: 2025-07-01
 pinned: false
 description: 一个简明的 Markdown 博客示例。
@@ -12,7 +13,6 @@ slug: markdown-tutorial
 series: "Firefly 功能示例2"
 seriesOrder: 1
 ---
-
 这是一个展示如何编写 Markdown 文件的示例。本文档汇总了核心语法与常见扩展（GFM）。
 
 - [块级元素](#block-elements)

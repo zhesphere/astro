@@ -1,5 +1,6 @@
 ---
 title: Firefly 文章加密
+draft: true
 published: 2025-07-01
 description: 这是一篇密码保护的示例文章，用于演示文章加密功能。
 tags: [示例, 密码保护]
@@ -10,7 +11,6 @@ slug: encrypted-demo
 series: "Firefly 功能示例"
 seriesOrder: 6
 ---
-
 ## 成功解锁了这篇文章！
 
 如果你能看到这段内容，说明密码输入正确，文章已成功解密。
