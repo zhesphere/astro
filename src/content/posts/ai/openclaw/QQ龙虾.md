@@ -1,7 +1,7 @@
 ---
-title: "QQ龙虾"
+title: "OpenClaw 接 QQ"
 published: 2026-03-22
-description: ""
+description: "给 OpenClaw 装 QQ 机器人插件，再用 token 绑定。"
 image: ""
 tags: [OpenClaw]
 category: "人工智能"

@@ -1,7 +1,7 @@
 ---
-title: "OpenCode"
+title: "OpenCode 安装"
 published: 2026-09-05
-description: ""
+description: "OpenCode 的安装记录，以及 npm 不允许安装脚本时怎么授权。"
 image: ""
 tags: [AI编程]
 category: "人工智能"

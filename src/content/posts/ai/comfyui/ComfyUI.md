@@ -1,7 +1,7 @@
 ---
-title: ComfyUI
+title: "ComfyUI 工作流笔记"
 published: 2025-10-29
-description: ComfyUI学习
+description: "ComfyUI 笔记：扩散是加噪声再去噪声，以及 checkpoint、CLIP、采样这些节点怎么接。"
 tags: [ComfyUI]
 category: 人工智能
 ---

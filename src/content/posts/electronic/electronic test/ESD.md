@@ -1,7 +1,7 @@
 ---
 title: "ESD"
 published: 2026-03-20
-description: ""
+description: "静电放电的定义，以及 HBM、CDM、MM 三种模型。"
 image: ""
 tags: [防护]
 category: 电子

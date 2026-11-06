@@ -1,7 +1,7 @@
 ---
 title: "Latch-up"
 published: 2026-07-02
-description: ""
+description: "CMOS 受干扰后 NMOS 和 PMOS 形成通路并锁住，严重时芯片报废。"
 image: ""
 tags: [器件]
 category: 电子

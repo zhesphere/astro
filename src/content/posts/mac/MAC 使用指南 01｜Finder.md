@@ -1,7 +1,7 @@
 ---
 title: "MAC 使用指南 01｜Finder"
 published: 2026-09-06
-description: ""
+description: "刚用 Mac 时，Finder 建议先改的 5 个设置，按 60 到 80 秒成片写的旁白。"
 image: ""
 tags: [Mac, 教程]
 category: "Mac"

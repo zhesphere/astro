@@ -1,7 +1,7 @@
 ---
 title: "LDO"
 published: 2026-05-06
-description: ""
+description: "PMOS LDO 压差和静态电流更低，NMOS LDO 要更高的栅极驱动。"
 image: ""
 tags: [器件]
 category: 电子

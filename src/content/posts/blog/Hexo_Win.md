@@ -1,7 +1,7 @@
 ---
-title: "Hexo_Win"
+title: "在 Windows 上装 Hexo"
 published: 2026-04-10
-description: ""
+description: "在 Windows 上装 Git、Node 和 Hexo，并处理 PowerShell 不能跑脚本。"
 image: ""
 tags: [Hexo]
 category: "博客"

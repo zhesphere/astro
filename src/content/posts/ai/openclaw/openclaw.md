@@ -1,7 +1,7 @@
 ---
-title: "openclaw"
+title: "OpenClaw 安装"
 published: 2026-03-21
-description: ""
+description: "OpenClaw 中文版和国际版的安装记录，含 Homebrew 和技能配置。"
 image: ""
 tags: [OpenClaw]
 category: "人工智能"

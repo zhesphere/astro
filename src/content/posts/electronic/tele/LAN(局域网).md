@@ -1,7 +1,7 @@
 ---
-title: "LAN(局域网)"
+title: "LAN"
 published: 2026-03-18
-description: ""
+description: "LAN 是一栋楼或一个园区内的网络，速率高、延迟低，用来传数据和共享设备。"
 image: ""
 tags: [网络]
 category: 电子

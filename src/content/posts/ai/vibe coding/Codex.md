@@ -1,7 +1,7 @@
 ---
-title: "Codex"
+title: "Codex 的几种用法"
 published: 2026-04-11
-description: ""
+description: "Codex 的几种用法：应用、命令行、IDE 插件和 Homebrew。"
 image: ""
 tags: [AI编程]
 category: "人工智能"

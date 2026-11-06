@@ -1,7 +1,7 @@
 ---
-title: "motor"
+title: "motor：定子磁场带动转子"
 published: 2026-03-23
-description: ""
+description: "motor 用磁场把电能变成转动，定子生磁场，转子受力转。"
 image: ""
 tags: [器件]
 category: 电子

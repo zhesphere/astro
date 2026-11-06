@@ -1,7 +1,7 @@
 ---
-title: "使能"
+title: "电源芯片的 EN 脚"
 published: 2026-02-04
-description: ""
+description: "EN 拉有效后电源芯片才有输出；有的 DC-DC 写了 float to enable，悬空也会开。"
 image: ""
 tags: [器件]
 category: 电子

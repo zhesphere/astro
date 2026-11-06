@@ -1,7 +1,7 @@
 ---
 title: "EMC"
 published: 2026-03-14
-description: ""
+description: "设备和其他设备同时工作时不受电磁干扰影响；EMC 包含 EMI 和 EMS。"
 image: ""
 tags: [电子测试]
 category: 电子

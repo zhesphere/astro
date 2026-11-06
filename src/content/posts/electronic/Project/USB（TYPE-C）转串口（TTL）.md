@@ -1,7 +1,7 @@
 ---
 title: "USB（TYPE-C）转串口（TTL）"
 published: 2026-02-03
-description: ""
+description: "TYPE-C 转串口的接口定义，方案是一个 TYPE-C 口加四路 TTL。"
 image: ""
 tags: [项目]
 category: 电子

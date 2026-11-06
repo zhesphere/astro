@@ -1,7 +1,7 @@
 ---
-title: "keyboard"
+title: "keyboard：配列和钢板"
 published: 2026-05-27
-description: ""
+description: "keyboard 的资料：配列编辑器和钢板生成。"
 image: ""
 tags: [项目]
 category: 电子

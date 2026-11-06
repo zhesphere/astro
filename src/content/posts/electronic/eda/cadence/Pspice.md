@@ -1,7 +1,7 @@
 ---
-title: "Pspice"
+title: "用 Pspice 做仿真"
 published: 2026-01-15
-description: ""
+description: "在 Capture 里新建 Pspice 工程，放置阻容电源做仿真。"
 image: ""
 tags: [EDA]
 category: 电子

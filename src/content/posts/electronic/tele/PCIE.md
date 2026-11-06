@@ -1,7 +1,7 @@
 ---
 title: "PCIE"
 published: 2026-04-27
-description: ""
+description: "连接显卡、网卡、USB 控制器等外设的总线，用来替代旧的 PCI。"
 image: ""
 tags: [通信]
 category: 电子

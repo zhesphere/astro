@@ -1,7 +1,7 @@
 ---
 title: "MAC 使用指南 02｜Finder 进阶"
 published: 2026-09-06
-description: ""
+description: "显示隐藏文件、批量重命名、返回上一级，这期讲操作而不是基础设置。"
 image: ""
 tags: [Mac, 教程]
 category: "Mac"

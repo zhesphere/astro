@@ -1,7 +1,7 @@
 ---
-title: EMC&RF
+title: "EMC 与 RF"
 published: 2025-11-01
-description: ""
+description: "辐射按 3 米或 10 米测，传导用 AAN；RF 还要做 RED。"
 tags: [电子测试]
 category: 电子
 ---

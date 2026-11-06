@@ -1,7 +1,7 @@
 ---
 title: "USB"
 published: 2026-03-23
-description: ""
+description: "从 USB 1.0 到 USB4 的版本变化，以及 A、B、C 公母头的引脚。"
 image: ""
 tags: [通信]
 category: 电子

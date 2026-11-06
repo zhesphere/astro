@@ -1,7 +1,7 @@
 ---
-title: "Fuse"
+title: "Fuse：过流断开，冷却后恢复"
 published: 2026-04-03
-description: ""
+description: "Fuse 这篇记 PPTC，过流时电阻升高断开，冷却后又能导通。"
 image: ""
 tags: [保险丝]
 category: 电子

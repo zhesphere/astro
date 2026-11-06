@@ -1,7 +1,7 @@
 ---
-title: "cc-switch"
+title: "CC Switch：在 Mac 上切换 Claude 配置"
 published: 2026-04-12
-description: ""
+description: "在 Mac 上安装 CC Switch，含 Homebrew 和手动下载 dmg。"
 image: ""
 tags: [工具]
 category: "人工智能"

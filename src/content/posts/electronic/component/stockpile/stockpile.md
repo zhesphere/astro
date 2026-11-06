@@ -1,7 +1,7 @@
 ---
-title: 存储
+title: "存储资料：SSD、DDR、eMMC"
 published: 2026-02-28
-description: ""
+description: "存储器件的资料夹：SSD、DDR、eMMC，以及 DAS、NAS、SAN。"
 image: ""
 tags: [器件]
 category: 电子

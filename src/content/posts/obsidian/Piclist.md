@@ -1,7 +1,7 @@
 ---
-title: Piclist
+title: "把图传到 PicList"
 published: 2026-03-17
-description: ""
+description: "在 Obsidian 里用 Image auto upload 把图传到 PicList，并记下阿里云 OSS 的配置项。"
 image: ""
 tags: [Obsidian]
 category: "Obsidian"

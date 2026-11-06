@@ -1,7 +1,7 @@
 ---
-title: "Astro_Win"
+title: "在 Windows 上搭 Astro"
 published: 2026-04-10
-description: ""
+description: "在 Windows 上装 Node，用社区模板起一个 Astro 博客。"
 image: ""
 tags: [Astro]
 category: "博客"

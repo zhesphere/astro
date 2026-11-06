@@ -1,7 +1,7 @@
 ---
-title: "ollama"
+title: "Ollama：本地跑模型"
 published: 2026-09-05
-description: ""
+description: "在本机用 Ollama 管模型、改 Context Length，并作为 API 给 OpenCode 用。"
 image: ""
 tags: [本地模型]
 category: "人工智能"

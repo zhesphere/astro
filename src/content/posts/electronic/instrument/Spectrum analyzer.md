@@ -1,7 +1,7 @@
 ---
 title: "频谱仪"
 published: 2026-03-13
-description: ""
+description: "用频谱仪看传导和辐射，读峰值和平均值。"
 image: ""
 tags: [仪器]
 category: 电子

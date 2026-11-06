@@ -1,7 +1,7 @@
 ---
-title: "Time Synchronization"
+title: "Time Synchronization：1PPS、PTP 和 NTP"
 published: 2026-04-13
-description: ""
+description: "Time Synchronization 用 1PPS、NMEA、PTP、NTP 做校时。"
 image: ""
 tags: [电路]
 category: 电子

@@ -1,7 +1,7 @@
 ---
 title: "LED"
 published: 2025-12-17
-description: ""
+description: "LED 是半导体发光元件，装进封装之后才是板上用的 LED 器件。"
 image: ""
 tags: [器件]
 category: 电子

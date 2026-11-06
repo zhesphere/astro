@@ -1,7 +1,7 @@
 ---
 title: "CAN"
 published: 2026-03-18
-description: ""
+description: "汽车里常用的串行总线，不同电控系统共用它，以减少线束。"
 image: ""
 tags: [通信]
 category: 电子

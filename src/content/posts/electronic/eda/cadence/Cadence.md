@@ -1,7 +1,7 @@
 ---
-title: Cadence
+title: "Cadence 工程目录怎么放"
 published: 2025-11-01
-description: ""
+description: "Cadence 工程目录里，PCB 图、规格书、DXF 和设计说明各放哪个文件夹。"
 tags: [EDA]
 category: 电子
 ---

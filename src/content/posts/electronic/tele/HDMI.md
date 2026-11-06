@@ -1,7 +1,7 @@
 ---
 title: "HDMI"
 published: 2026-04-27
-description: ""
+description: "eARC 是 ARC 的升级，电视可以用同一根 HDMI 把音频送回音响。"
 image: ""
 tags: [通信]
 category: 电子

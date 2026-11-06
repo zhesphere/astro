@@ -1,7 +1,7 @@
 ---
-title: "Hexo_mac"
+title: "在 Mac 上装 Hexo"
 published: 2026-04-09
-description: ""
+description: "在 Mac 上用 Homebrew、Git 和 Node 安装 Hexo。"
 tags: [Hexo]
 category: "博客"
 series: "博客搭建"

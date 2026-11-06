@@ -1,7 +1,7 @@
 ---
-title: "Lume"
+title: "Lume：macOS 虚拟机"
 published: 2026-03-21
-description: ""
+description: "用 Lume 建 macOS 虚拟机，并把虚拟机文件改存到外部盘。"
 image: ""
 tags: [虚拟机]
 category: "人工智能"

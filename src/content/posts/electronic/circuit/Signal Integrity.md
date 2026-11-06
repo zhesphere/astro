@@ -1,7 +1,7 @@
 ---
-title: "Signal Integrity"
+title: "Signal Integrity：地弹"
 published: 2026-04-14
-description: ""
+description: "Signal Integrity 笔记，从地弹写起，把地弹看成地噪声。"
 image: ""
 tags: [电路]
 category: 电子

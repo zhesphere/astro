@@ -1,7 +1,7 @@
 ---
-title: "mac"
+title: "Finder 里常改的几项"
 published: 2026-09-06
-description: ""
+description: "Finder 常用项：显示扩展名、路径栏，以及关掉建议打开的 App。"
 image: ""
 tags: [教程]
 category: "Mac"

@@ -1,7 +1,7 @@
 ---
 title: "AT命令集"
 published: 2026-07-15
-description: ""
+description: "MCU 经串口用 AT 指令控制 GSM、Wi-Fi、蓝牙等模组。"
 image: ""
 tags: [通信]
 category: 电子

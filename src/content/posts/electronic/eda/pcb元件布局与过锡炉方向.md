@@ -1,7 +1,7 @@
 ---
 title: "PCB元件布局与过锡炉方向"
 published: 2026-08-13
-description: PCB元件布局与过锡炉方向
+description: "过波峰焊时，同类、相近尺寸的元件尽量摆成同一方向。"
 image: ""
 tags: [EDA]
 category: "电子"

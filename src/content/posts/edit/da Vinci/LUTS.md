@@ -1,7 +1,7 @@
 ---
-title: LUTS
+title: "LUTS：在 DaVinci 里怎么用"
 published: 2025-11-11
-description: ""
+description: "DaVinci 里 LUTS 是 .cube 颜色查找表，分矫正和风格两类，Log 画面要先放对再套。"
 image: ""
 tags: [达芬奇]
 category: 剪辑

@@ -1,7 +1,7 @@
 ---
 title: DC-DC
 published: 2025-09-01
-description: ""
+description: "直流转直流的开关电源，效率通常高于 LDO，笔记里的料以矽力杰为主。"
 tags: [器件]
 category: 电子
 ---

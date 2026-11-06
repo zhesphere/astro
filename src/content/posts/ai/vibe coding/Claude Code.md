@@ -1,7 +1,7 @@
 ---
-title: "Claude Code"
+title: "Claude Code 怎么装"
 published: 2026-04-10
-description: ""
+description: "Claude Code 的安装入口，覆盖终端和 VS Code 等界面。"
 image: ""
 tags: [AI编程]
 category: "人工智能"

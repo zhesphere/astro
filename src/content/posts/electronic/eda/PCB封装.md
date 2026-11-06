@@ -1,7 +1,7 @@
 ---
 title: PCB封装
 published: 2025-11-01
-description: ""
+description: "封装是器件外形在 PCB 上的投影；笔记记了焊盘和一组 Padstack。"
 tags: [EDA]
 category: 电子
 slug: electronic/eda/pcb-feng-zhuang
